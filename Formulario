@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>FICHA DE ANAMNESE</h1>
+        <hr>
+    </header>
+
+    <main>
+        <form action="">
+            <fieldset>
+            <label for="nome">Nome</label>
+            <input type="text" name="Nome" id=nome><br></br>
+            <label for="idade">Idade</label>
+            <input type="number" name="Idade" id=idade> <br></br>
+            <label for="Telefone"> Telefone</label>
+            <input type="tel" name="Telefone" id="Telefone"> <br> <br>
+            
+            <label for="sexo">Sexo:</label>
+            <input type="radio" name="Sexo" id="Sexo"> Masculino
+            <input type="radio" name="Sexo" id="Sexo"> Feminino <br><br>
+            <label for="Nascimento">Data de Nascimento</label>
+            <input type="date" name="nascimento" id="Nascimento"> <br></br>
+            <label for="email">Email</label>
+            <input type=" text" name="Email" id="Email"> <br><br>
+            <label for="Convênio">Convênio</label>
+            <input type="text" name="Convênio" id="Convênio"> <br></br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <h3>Doenças</h3>
+            <label for="Diabete">Diabete</label>
+            <input type="checkbox" name="Diabete" id="Diabete"> <br></br>
+            <label for="Pressão alta">Pressão alta</label>
+            <input type="checkbox" name="Pressão alta" id="Pressão alta"><br></br>
+            <label for=""></label>
+
+        <label for="Alergia">Alergia</label>
+        <input type="checkbox" name="Alergia" id="Alergia"> <br></br>
+        </fieldset>
+        <br>
+
+    <fieldset>
+        
+
+        <h3>Medicamentos Disponíveis</h3>
+    <ol>
+       <li>Insulina</li>
+       <li>Captopril</li>
+       <li>Loratadina</li>
+
+    </ol>
+
+</fieldset>
+<label for="enviar"></label>
+<input type="submit" name="enviar" id="enviar"> <br> <br>
+
+
+        </form>
+
+
+    </main>
+    
+
+</body>
+
+</html>
